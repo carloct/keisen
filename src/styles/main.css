@@ -2029,6 +2029,10 @@ footer .footer-nav li a:hover {
 }
 .single-footer-widget h6 {
   color: white;
+  font-size: 1.8em;
+}
+.single-footer-widget p {
+  font-size: 1.1em;
 }
 .footer-bottom {
   border-top: 1px solid #eeeeee;

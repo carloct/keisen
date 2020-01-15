@@ -1,8 +1,4 @@
 import "./src/styles/global.css"
 import "./src/styles/linearicons.css"
-import "./src/styles/owl.carousel.css"
-import "./src/styles/font-awesome.min.css"
-import "./src/styles/nice-select.css"
-import "./src/styles/magnific-popup.css"
 import "./src/styles/bootstrap.css"
 import "./src/styles/main.css"

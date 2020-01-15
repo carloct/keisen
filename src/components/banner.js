@@ -2,6 +2,15 @@ import React from "react"
 
 import imgBanner from "../img/header-img.png"
 
+const scrollToBottom = e => {
+  e.preventDefault()
+
+  window.scrollTo(
+    0,
+    document.body.scrollHeight || document.documentElement.scrollHeight
+  )
+}
+
 export default props => {
   return (
     <section className="banner-area relative">
@@ -18,7 +27,11 @@ export default props => {
                 <br />
                 to build your next <span className="sp-2">idea</span>
               </h1>
-              <a href="#" className="genric-btn primary circle arrow">
+              <a
+                href="#"
+                className="genric-btn primary circle arrow"
+                onClick={scrollToBottom}
+              >
                 Contact us<span className="lnr lnr-arrow-right"></span>
               </a>
             </div>
