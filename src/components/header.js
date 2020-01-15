@@ -10,9 +10,9 @@ export default props => {
       <div className="container-fluid">
         <div className="header-wrap">
           <div className="header-top d-flex justify-content-between align-items-center">
-            <div className="logo">
+            <div className="logo mt-20">
               <a href="index.html">
-                Grunt<span className="text-primary">.</span>{" "}
+                Keisen<span className="text-primary">.</span>{" "}
               </a>
             </div>
             <div className="main-menubar d-flex align-items-center">
@@ -21,7 +21,7 @@ export default props => {
                 <a href="generic.html">Generic</a>
                 <a href="elements.html">Elements</a>
               </nav>
-              <div className="menu-bar" onClick={toggleVisibility}>
+              <div className="menu-bar hidden" onClick={toggleVisibility}>
                 <span className="lnr lnr-menu"></span>
               </div>
             </div>

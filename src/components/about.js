@@ -11,21 +11,22 @@ export default props => {
             <div className="story-content">
               <h2>
                 Brief Information <br />
-                About <span>CellOn</span>
+                About <span>Keisen</span>
               </h2>
               <p className="mt-30">
-                Few would argue that, despite the advancements of feminism over
-                the past three decades, women still face a double standard when
-                it comes to their behavior. While men’s borderline-inappropriate
-                behavior is often laughed off as “boys will be boys,” women face
-                higher conduct standards – especially in the workplace. <br />{" "}
-                <br />
-                While men’s borderline-inappropriate behavior is often laughed
-                off as “boys will be boys,”
+                Keisen provides all-round web-development services in the UK,
+                mainly in London. We have more than 10 years experience in the
+                web-development industry and have played an important part in
+                the development of many complex web-applications for
+                corporations such as Sainsbury's, Sony/ATV, NBC and many more.
+                <br /> <br />
+                Build secure high-performance, scalable, distributed systems
+                Build maintainable, tested, high-quality code Build REST-full
+                API's Design and build databases Build clean, responsive and
+                intuitive UI's Carefully analyse system requirements in order to
+                find the best solutions Supply highly skilled and dedicated
+                agile developers
               </p>
-              <a href="#" className="genric-btn primary-border circle arrow">
-                View More<span className="lnr lnr-arrow-right"></span>
-              </a>
             </div>
           </div>
           <div className="col-lg-6">

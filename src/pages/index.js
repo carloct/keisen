@@ -4,6 +4,7 @@ import Header from "../components/header"
 import Banner from "../components/banner"
 import About from "../components/about"
 import Features from "../components/features"
+import Footer from "../components/footer"
 
 export default () => {
   return (
@@ -11,8 +12,9 @@ export default () => {
       <Layout>
         <Header />
         <Banner />
-        <About />
         <Features />
+        <About />
+        <Footer />
       </Layout>
     </>
   )

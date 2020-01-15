@@ -12,14 +12,14 @@ export default props => {
           </div>
           <div className="col-lg-6">
             <div className="story-content">
-              <h6 className="text-uppercase">From the for User interface</h6>
+              <h6 className="text-uppercase">Web application development</h6>
               <h1>
-                Behind Every <span className="sp-1">Success</span>
+                Let us help <span className="sp-1">you</span>
                 <br />
-                There is a <span className="sp-2">Cactus</span>
+                to build your next <span className="sp-2">idea</span>
               </h1>
               <a href="#" className="genric-btn primary circle arrow">
-                Get Started<span className="lnr lnr-arrow-right"></span>
+                Contact us<span className="lnr lnr-arrow-right"></span>
               </a>
             </div>
           </div>
